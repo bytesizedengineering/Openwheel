@@ -232,7 +232,7 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6400 2600 50
 	1    6400 2600
 	-1   0    0    -1  
 $EndComp
-Text Notes 1750 6950 0    50   ~ 0
+Text Notes 1350 6700 0    50   ~ 0
 = Splice points
 Text Notes 1650 1850 2    50   ~ 0
 Splice points
@@ -464,12 +464,12 @@ Wire Wire Line
 	2250 3550 2250 3600
 Connection ~ 2250 3550
 Wire Wire Line
-	1600 6850 1600 6900
+	1200 6600 1200 6650
 Wire Wire Line
-	1600 6900 1600 6950
-Connection ~ 1600 6900
+	1200 6650 1200 6700
+Connection ~ 1200 6650
 Wire Wire Line
-	1600 6900 1700 6900
+	1200 6650 1300 6650
 Wire Wire Line
 	3050 6150 3050 6200
 Connection ~ 3050 6150
@@ -497,4 +497,22 @@ Wire Wire Line
 	3050 6650 4150 6650
 Wire Wire Line
 	2250 6250 3150 6250
+Text Notes 1750 4550 0    50   ~ 0
+= Splice points
+Wire Wire Line
+	1600 4450 1600 4500
+Wire Wire Line
+	1600 4500 1600 4550
+Connection ~ 1600 4500
+Wire Wire Line
+	1600 4500 1700 4500
+Text Notes 7200 4050 0    50   ~ 0
+= Splice points
+Wire Wire Line
+	7050 3950 7050 4000
+Wire Wire Line
+	7050 4000 7050 4050
+Connection ~ 7050 4000
+Wire Wire Line
+	7050 4000 7150 4000
 $EndSCHEMATC

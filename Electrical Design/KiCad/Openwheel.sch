@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Openwheel"
+Date "2021-07-20"
 Rev ""
-Comp ""
+Comp "byte sized engineering llc"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -232,7 +232,7 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6400 2600 50
 	1    6400 2600
 	-1   0    0    -1  
 $EndComp
-Text Notes 1350 6700 0    50   ~ 0
+Text Notes 1100 7400 0    50   ~ 0
 = Splice points
 Text Notes 1650 1850 2    50   ~ 0
 Splice points
@@ -394,66 +394,66 @@ GND
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 60FAFE5C
-P 2050 6350
-F 0 "J?" H 1970 6767 50  0000 C CNN
-F 1 "JST-PH Plug" H 1970 6676 50  0000 C CNN
-F 2 "" H 2050 6350 50  0001 C CNN
-F 3 "~" H 2050 6350 50  0001 C CNN
-	1    2050 6350
+P 1800 7050
+F 0 "J?" H 1720 7467 50  0000 C CNN
+F 1 "JST-PH Plug" H 1720 7376 50  0000 C CNN
+F 2 "" H 1800 7050 50  0001 C CNN
+F 3 "~" H 1800 7050 50  0001 C CNN
+	1    1800 7050
 	-1   0    0    -1  
 $EndComp
-Text Label 2300 6250 0    50   ~ 0
+Text Label 2050 6950 0    50   ~ 0
 White
-Text Label 2300 6650 0    50   ~ 0
+Text Label 2050 7350 0    50   ~ 0
 Black
-Text Label 2300 6150 0    50   ~ 0
+Text Label 2050 6850 0    50   ~ 0
 Red
-Text Label 2300 6350 0    50   ~ 0
+Text Label 2050 7050 0    50   ~ 0
 Orange
-Text Label 2300 6450 0    50   ~ 0
+Text Label 2050 7150 0    50   ~ 0
 Green
-Text Label 2300 6550 0    50   ~ 0
+Text Label 2050 7250 0    50   ~ 0
 Yellow
-Text Label 2750 6150 0    50   ~ 0
+Text Label 2500 6850 0    50   ~ 0
 5V
-Text Label 3900 6150 0    50   ~ 0
+Text Label 3650 6850 0    50   ~ 0
 Red
-NoConn ~ 3150 6250
-Text Label 3900 6650 0    50   ~ 0
+NoConn ~ 2900 6950
+Text Label 3650 7350 0    50   ~ 0
 Black
-Text Label 3900 6550 0    50   ~ 0
+Text Label 3650 7250 0    50   ~ 0
 Yellow
-Text Label 3900 6450 0    50   ~ 0
+Text Label 3650 7150 0    50   ~ 0
 Green
-Text Label 3900 6350 0    50   ~ 0
+Text Label 3650 7050 0    50   ~ 0
 Blue
-Text Notes 4300 6450 0    50   ~ 0
+Text Notes 4050 7150 0    50   ~ 0
 Hub Motor\nHall Effect\nSensor Wires\n
-Text Label 2750 6350 0    50   ~ 0
+Text Label 2500 7050 0    50   ~ 0
 Hall1
-Text Label 2750 6450 0    50   ~ 0
+Text Label 2500 7150 0    50   ~ 0
 Hall2
-Text Label 2750 6550 0    50   ~ 0
+Text Label 2500 7250 0    50   ~ 0
 Hall3
-Text Label 2750 6650 0    50   ~ 0
+Text Label 2500 7350 0    50   ~ 0
 GND
-Text Label 2750 6250 0    50   ~ 0
+Text Label 2500 6950 0    50   ~ 0
 TEMP
-Text Notes 1300 6500 0    50   ~ 0
+Text Notes 1050 7200 0    50   ~ 0
 Connet to VESC\nSensor Connector\n\n
 Connection ~ 1950 3950
 Wire Wire Line
 	1950 3950 1950 4000
 Wire Wire Line
-	2250 6150 3050 6150
+	2000 6850 2800 6850
 Wire Wire Line
-	2250 6350 3050 6350
+	2000 7050 2800 7050
 Wire Wire Line
-	2250 6450 3050 6450
+	2000 7150 2800 7150
 Wire Wire Line
-	2250 6550 3050 6550
+	2000 7250 2800 7250
 Wire Wire Line
-	2250 6650 3050 6650
+	2000 7350 2800 7350
 Wire Wire Line
 	2050 3750 2050 3800
 Connection ~ 2050 3750
@@ -464,39 +464,39 @@ Wire Wire Line
 	2250 3550 2250 3600
 Connection ~ 2250 3550
 Wire Wire Line
-	1200 6600 1200 6650
+	950  7300 950  7350
 Wire Wire Line
-	1200 6650 1200 6700
-Connection ~ 1200 6650
+	950  7350 950  7400
+Connection ~ 950  7350
 Wire Wire Line
-	1200 6650 1300 6650
+	950  7350 1050 7350
 Wire Wire Line
-	3050 6150 3050 6200
-Connection ~ 3050 6150
+	2800 6850 2800 6900
+Connection ~ 2800 6850
 Wire Wire Line
-	3050 6150 4150 6150
+	2800 6850 3900 6850
 Wire Wire Line
-	3050 6350 3050 6400
-Connection ~ 3050 6350
+	2800 7050 2800 7100
+Connection ~ 2800 7050
 Wire Wire Line
-	3050 6350 4150 6350
+	2800 7050 3900 7050
 Wire Wire Line
-	3050 6450 3050 6500
-Connection ~ 3050 6450
+	2800 7150 2800 7200
+Connection ~ 2800 7150
 Wire Wire Line
-	3050 6450 4150 6450
+	2800 7150 3900 7150
 Wire Wire Line
-	3050 6550 3050 6600
-Connection ~ 3050 6550
+	2800 7250 2800 7300
+Connection ~ 2800 7250
 Wire Wire Line
-	3050 6550 4150 6550
+	2800 7250 3900 7250
 Wire Wire Line
-	3050 6650 3050 6700
-Connection ~ 3050 6650
+	2800 7350 2800 7400
+Connection ~ 2800 7350
 Wire Wire Line
-	3050 6650 4150 6650
+	2800 7350 3900 7350
 Wire Wire Line
-	2250 6250 3150 6250
+	2000 6950 2900 6950
 Text Notes 1750 4550 0    50   ~ 0
 = Splice points
 Wire Wire Line
@@ -515,4 +515,14 @@ Wire Wire Line
 Connection ~ 7050 4000
 Wire Wire Line
 	7050 4000 7150 4000
+Text Notes 1450 6050 0    100  ~ 0
+VESC Hall Effect Sensor Wiring\n
+Wire Notes Line width 10 style solid rgb(132, 0, 0)
+	500  5800 4900 5800
+Wire Notes Line width 10 style solid rgb(132, 0, 0)
+	4900 500  4900 7800
+Text Notes 1500 900  0    100  ~ 0
+Footpad Sensor and \nIMU Wiring Harness\n
+Text Notes 7200 900  0    100  ~ 0
+Arduino and RGB \nLED Wiring\n
 $EndSCHEMATC
